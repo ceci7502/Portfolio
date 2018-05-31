@@ -4,7 +4,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    background-color: #c1adb6;
+    background-color: #DDCCD2;
 }
 
 body {
@@ -20,6 +20,7 @@ nav ul {
     flex-direction: row;
     list-style: none;
     padding-left: 1em;
+    background-color: #B590A2;
 }
 
 nav ul li {
@@ -28,7 +29,7 @@ nav ul li {
 }
 
 
-/* Basis styles */
+/* Dropdown */
 
 .dropdown > ul {
     display: none;
@@ -48,3 +49,15 @@ nav ul li {
 .dropdown:hover > ul {
     display: block;
 }
+
+/*Andet*/
+
+footer {
+    background-color: #B590A2;
+}
+
+#bedst {
+    padding: 5em;
+}
+
+/* Responsive*/
