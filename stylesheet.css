@@ -39,6 +39,7 @@ img {
 }
 
 .vandret {
+    background-color: aqua;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -46,17 +47,6 @@ img {
     margin: 0.6em;
     flex-grow: 1;
     flex-basis: 400px;
-    /*
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 1em;
-    margin: 1em;
-    list-style: none;
-
-    flex-grow: 1;
-    flex-basis: 300px;
-    */
 }
 
 
