@@ -2,21 +2,70 @@
 
 img {
     width: 100%;
-    padding: 1em;
+    /*padding: 1em;*/
 }
 
+.JJimage {
+    flex-basis: 200px;
+    flex-grow: -3;
+}
+
+/*
 .billede img {
     width: 100%;
-}
+}*/
 
-#sectionwrapper {
+.sectionwrapper {
     display: flex;
+    flex-wrap: wrap;
+    /*
     justify-content: flex-start;
     flex-direction: row;
     list-style: none;
     padding-left: 0.6em;
+    margin: 0.6em;*/
+}
+
+#moodboard {}
+
+#moodboard .top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 0.6em;
     margin: 0.6em;
 }
+
+#moodboard .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.6em;
+    margin: 0.8em;
+}
+
+#moodboard .column_wide {
+    flex-basis: 400px;
+    flex-grow: 3;
+
+}
+
+#moodboard .column_narrow {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#moodboard .txt {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 0.4em;
+}
+
+#moodboard .image {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+/*
 
 #sectionwrapperreverse {
     display: flex;
